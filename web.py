@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 
 from flask import Flask, request, render_template
 
@@ -27,4 +27,4 @@ def led_control():
     return render_template('main.html')
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0')
