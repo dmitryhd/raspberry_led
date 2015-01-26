@@ -2,7 +2,14 @@
 
 from flask import Flask, request, render_template
 
-from led import *
+#from led import *
+RED_LED = 0
+GREEN_LED = 1
+def power_on(led_num):
+    print('execute power on', led_num)
+
+def power_off(led_num):
+    print('execute power off', led_num)
 
 app = Flask(__name__)
 

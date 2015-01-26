@@ -1,0 +1,22 @@
+.page {
+    font-family: 'Libre Baskerville', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.page_top {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: linear-gradient(#999, #bbb);
+}
+h1 {
+    margin: 0px;
+    color: #fff;
+    text-shadow: 3px 3px #444;
+}
+.diod_on {
+    width: 100px;
+}
